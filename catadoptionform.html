@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Paw Placement - Cat Adoption Form</title>
+  <meta charset="utf-8">
+	
+	<!-- Required meta tag for resposive pages -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	<!-- Latest compiled and minified bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	
+	<!--The next line of code should link to your local stylesheet-->
+	<!--IMPORTANT, THIS LINK MUST BE AFTER THE LINK TO bootstrap.min.css-->
+  <link rel="stylesheet" href="main.css">	
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	<!-- Access to Font Awesome icons, etc.-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google fonts Dosis for headings and Roboto for text. This link tag was created at https://fonts.google.com/-->
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Roboto&display=swap" rel="stylesheet">
+	  
+ 
+</head>
+<body>
+<!-- Navigation Start-->	
+<nav class="navbar navbar-expand-md navbar-light mt-0 border bg-white sticky-top">
+ 		<div class="container">
+        <a class="navbar-brand mr-5" href="index.html"><img class="logo" src="pawplacementlogo.png"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar">
+            <span class="navbar-toggler-icon" ></span>
+        </button> 
+    
+        <div id="main-navbar" class="collapse navbar-collapse">   
+            <ul class="navbar-nav nav w-100 justify-content-between">
+                <li class="nav-item align-self-center"> <a class="nav-link" href="index.html"> Home </a> </li>
+				<li class="nav-item dropdown align-self-center">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Adoptions
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="availablecats.html">Available Cats</a>
+				  <a class="dropdown-item" href="availabledogs.html">Available Dogs</a>
+				  <a class="dropdown-item" href="catadoptionform.html">Cat - Adoption Form</a>
+				  <a class="dropdown-item" href="dogadoptionform.html">Dog - Adoption Form</a>
+				</div>
+			  </li>
+                <li class="nav-item align-self-center"> <a class="nav-link"  href="volunteer.html"> Volunteer </a> </li>
+				<li class="nav-item align-self-center"> <a class="nav-link"  href="donate.html"> Donate </a> </li>
+				<li class="nav-item align-self-center"> <a class="nav-link"  href="resources.html"> Resources </a> </li>
+				<li class="nav-item align-self-center"> <a class="nav-link"  href="contact.html"> Contact </a> </li>
+            </ul>
+        </div> <!--End main-navbar"-->   
+                
+        </div> <!-- End container-->    
+</nav> <!-- End nav -->
+
+	<div class="container pt-5">	
+	<h2 class="text-center">Cat Adoption Form</h2>
+	<p class="lead">Answering the above questions in detail will help Paw Placement determine if the cat you would like to adopt is a good match for you based upon what you are looking for in a companion animal.</p>	
+
+	<p class="lead">Please allow 24 - 48 Hours for a response to your application. We will be contacting you through e-mail.</p>
+
+	<p class="lead">We know the personalities of our animals and want to set you and your new pet up for success. Filling out this application does not obligate you to adopt from Paw Placement.</p>
+		
+	</div>
+<!-- Form Start-->
+<div class="container">
+	<form class="border p-3">
+		
+		 <div class="form-row">
+		<div class="form-group col-md-6">
+		  <label for="inputEmail4">First Name</label>
+		  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+		</div>
+		<div class="form-group col-md-6">
+		  <label for="inputPassword4">Last Name</label>
+		  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+		</div>
+	  </div>
+		
+	  <div class="form-row">
+		<div class="form-group col-md-6">
+		  <label for="inputEmail4">Email</label>
+		  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+		</div>
+	  </div>
+		
+	  <div class="form-group">
+		<label for="inputAddress">Address</label>
+		<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+	  </div>
+	 
+	  <div class="form-row">
+		<div class="form-group col-md-6">
+		  <label for="inputCity">City</label>
+		  <input type="text" class="form-control" id="inputCity">
+		</div>
+		<div class="form-group col-md-4">
+		  <label for="inputState">State</label>
+		  <select id="inputState" class="form-control">
+			<option selected>Choose...</option>
+			<option>Arizona</option>
+			<option>California</option>
+			<option>New Mexico</option>  
+		  </select>
+		</div>
+		<div class="form-group col-md-2">
+		  <label for="inputZip">Zip</label>
+		  <input type="text" class="form-control" id="inputZip">
+		</div>
+	  </div>
+	  <div class="form-row">
+		<div class="form-group col-md-4">
+		  <label for="inputState">Cat you are interested in</label>
+		  <select id="inputState" class="form-control">
+			<option selected>Choose...</option>
+			<option>Clarice</option>
+			<option>Elle Belle</option>
+			<option>Flower</option>
+			<option>Jimbo</option>
+			<option>Jayden</option>
+			<option>Marley</option>
+		  </select>
+		</div>	
+	  </div>
+		
+		<label>What are you looking for in a cat?</label>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			Playful
+		  </label>
+		</div>
+		
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+		  <label class="form-check-label" for="defaultCheck2">
+			Gets along with cats
+		  </label>
+		</div>
+		
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+		  <label class="form-check-label" for="defaultCheck2">
+			Good with children
+		  </label>
+		</div>
+		
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+		  <label class="form-check-label" for="defaultCheck2">
+			Lap cat
+		  </label>
+		</div>
+		
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+		  <label class="form-check-label" for="defaultCheck2">
+			Declawed
+		  </label>
+		</div>
+		
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+		  <label class="form-check-label" for="defaultCheck2">
+			Gets along with dogs
+		  </label>
+		</div>
+		
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+		  <label class="form-check-label" for="defaultCheck2">
+			Enjoys the outdoors
+		  </label>
+		</div>
+		
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+		  <label class="form-check-label" for="defaultCheck2">
+			Does well alone
+		  </label>
+		</div>
+		
+		
+	  <div class="form-group">
+		<label for="exampleFormControlSelect1">Animals you currently live with?</label>
+		<select class="form-control" id="exampleFormControlSelect1">
+		  <option>1</option>
+		  <option>2</option>
+		  <option>3</option>
+		  <option>4</option>
+		  <option>5</option>
+		</select>
+	  </div>
+
+	  <div class="form-group">
+		<label for="exampleFormControlTextarea1">Please list the current animals in the home, including pet name, years owned and breed</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  </div>
+		
+	  <label>Have all adults in the home agreed to adopt?</label>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			Yes
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			No
+		  </label>
+		</div>	
+		
+		<label>Is anyone in your home allergic to cats, dogs or both?</label>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			Yes
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			No
+		  </label>
+		</div>	
+		
+		<label>Please check the lifestyle you will proide your cat:</label>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			Fully Clawed Indoor-only
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			Indoor/Outdoor
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			Declawed Indoor-only
+		  </label>
+		</div>
+		
+		<div class="form-group">
+		<label for="exampleFormControlTextarea1">Have you ever surrendered an animal to the Humane Society, County Facility, the Pound or Animal Care & Control? If yes, please explain.</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  </div>
+		
+		<div class="form-group">
+		<label for="exampleFormControlTextarea1">Have you ever placed a pet with family, friend or acquaintance? If yes, please explain the circumstances:</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  </div>
+		
+		<div class="form-group">
+		<label for="exampleFormControlTextarea1">Cats are creatures of space. This means that it takes the a while to settle into a new home. How much time are you willing to allow a new kitty to settle into your home?</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  </div>
+		
+		<div class="form-group">
+		<label for="exampleFormControlTextarea1">Describe behaviors you are willing to work on with your new companion and any you are unwilling to work on:</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  </div>
+		
+		<div class="form-group">
+		<label for="exampleFormControlTextarea1">Have you adopted from us before? If so, please list the full name of the adopter:</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  </div>
+		
+		<div class="form-group">
+		<label for="exampleFormControlTextarea1">How did you hear about our organization?</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  </div>
+		
+		<label>I understand completion of this form and approval for adoptions allows access to handle the cats in our Adoption Center. I also understand there is a chance I may be scratched or nipped and agree not to hold Paw Placement liable for any superficial injuries.</label>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			Yes
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+			No
+		  </label>
+		</div>
+		
+	  <button type="submit" class="btn btn-primary mt-4 mb-5">Submit</button>
+	</form>	
+</div>	<!-- Form End-->
+	
+<hr>	
+
+<div class="container">	
+	<!-- Footer -->
+	<footer class="page-footer font-small text-dark pt-4">
+
+	  <!-- Footer Links -->
+	  <div class="container-fluid text-center text-md-left">
+
+		<!-- Grid row -->
+		<div class="row">
+
+		  <!-- Grid column -->
+		  <div class="col-md-6 mt-md-0 mt-2">
+
+			<!-- Content -->
+			<h5>Paw Placement</h5>
+			<img class="img-fluid" src="pawplacementlogo.png" style="width: 150px; height: 150px;">
+
+		  </div>
+		  <!-- Grid column -->
+
+		  <hr class="clearfix w-100 d-md-none pb-3">
+
+		  <!-- Grid column -->
+		  <div class="col-md-3 mb-md-0 mb-3">
+
+			<!-- Links -->
+			<h5>Website</h5>
+
+			<ul class="list-unstyled">
+			  <li class="text-secondary">
+				<a class="text-secondary" href="index.html">Home</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="availablecats.html">Available Cats</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="availabledogs.html">Available Dogs</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="catadoptionform.html">Cat Adoption Form</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="dogadoptionform.html">Dog Adoption Form</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="volunteer.html">Volunteer</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="donate.html">Donate</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="resources.html">Resources</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="contact.html">Contact</a>
+			  </li>	
+			</ul>
+
+		  </div>
+		  <!-- Grid column -->
+
+		  <!-- Grid column -->
+		  <div class="col-md-3 mb-md-0 mb-3">
+
+			<!-- Links -->
+			<h5>Social</h5>
+
+			 <ul class="list-unstyled">
+			  <li>
+				<a class="text-secondary" href="https://www.facebook.com/pawplacement/" target="_blank">Facebook</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="https://twitter.com/PawPlacement" target="_blank">Twitter</a>
+			  </li>
+			  <li>
+				<a class="text-secondary" href="https://www.instagram.com/pawplacement/" target="_blank">Instagram</a>
+			  </li>
+			</ul>
+
+		  </div>
+		  <!-- Grid column -->
+
+		</div>
+		<!-- Grid row -->
+
+	  </div>
+	  <!-- Footer Links -->
+
+	  <!-- Copyright -->
+	  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+		<a class="text-secondary" href="#"> Paw Placement</a>
+	  </div>
+	  <!-- Copyright -->
+
+	</footer>
+</div>
+<!-- Footer -->
+<!-- Social Media Buttons-->	
+<div class="icon-bar">
+  <a href="https://www.facebook.com/pawplacement/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/PawPlacement" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/pawplacement/" target="_blank" class="google"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCNRMCp4PIb9lWpSXVDokqwA" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div><!-- Social Media End-->
+</body>
+</html>
